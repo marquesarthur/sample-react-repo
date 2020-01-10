@@ -4,8 +4,8 @@ import {promisify} from 'util';
 import {Pool} from "mysql";
 
 const dbConfig = {
-    host: "192.168.99.100",
-    // host: "localhost",
+    // host: "192.168.99.100",
+    host: "localhost",
     database: "jabc",
     user: "root",
     password: "supersecret",

@@ -131,7 +131,7 @@ Create gulp task that does all the bundling:
 1. copy build folder to `backend/src/web`
 1. run backend build
 1. run docker to generate a new image with the entire application
-
+1. update README with linux
 
 ### Good luck, have fun
 

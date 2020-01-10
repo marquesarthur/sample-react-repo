@@ -23,5 +23,5 @@ yarn-error.log*
 
 **/dist
 
-
+backend/**/*.js
 !**/dist/.gitkeep

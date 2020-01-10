@@ -18,10 +18,10 @@ describe('POST /login', () => {
     password: Base64.encode('secret')
   };
 
-    before(() => {
-        let _db = db.getInstance();
-        return _db.newConnectionPool();
-    });
+    // before(() => {
+    //     let _db = db.getInstance();
+    //     return _db.newConnectionPool();
+    // });
 
   it('response should have a valid oauth token', async () => {
     // CryptoJS.PBKDF2(password, salt, { keySize: 512/32, iterations: iterations });
@@ -85,8 +85,8 @@ describe('POST /login', () => {
       });
   });
 
-  after(() => {
-    let _db = db.getInstance();
-    return _db.closeConnectionPool();
-  });
+  // after(() => {
+  //   let _db = db.getInstance();
+  //   return _db.closeConnectionPool();
+  // });
 });
